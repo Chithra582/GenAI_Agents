@@ -1,0 +1,14 @@
+name: stategraph-schema-validator
+description: Validates LangGraph state schemas, node transitions, and conditional
+  edge mappings.
+input_schema:
+  type: object
+  properties:
+    graph_code:
+      type: string
+      description: Python source code defining the LangGraph StateGraph.
+    entry_point:
+      type: string
+      description: Name of the designated graph entry node.
+  required:
+  - graph_code

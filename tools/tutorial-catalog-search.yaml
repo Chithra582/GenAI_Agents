@@ -1,0 +1,14 @@
+name: tutorial-catalog-search
+description: Searches and indexes the 57+ GenAI agent tutorial notebooks by architecture,
+  framework, and industry.
+input_schema:
+  type: object
+  properties:
+    keyword:
+      type: string
+      description: Search keyword or topic (e.g. langgraph, rag, human-in-the-loop).
+    framework:
+      type: string
+      description: 'Framework filter: langgraph, swarm, autogen, or crewai.'
+  required:
+  - keyword

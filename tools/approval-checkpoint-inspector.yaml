@@ -1,0 +1,14 @@
+name: approval-checkpoint-inspector
+description: Inspects persistent graph state at human-in-the-loop interrupt boundaries.
+input_schema:
+  type: object
+  properties:
+    thread_id:
+      type: string
+      description: Identifier of the active execution thread.
+    checkpoint_data:
+      type: object
+      description: State dictionary captured at the interrupt point.
+  required:
+  - thread_id
+  - checkpoint_data

@@ -1,0 +1,24 @@
+spec_version: "0.1.0"
+name: genai-agents-architect
+version: 0.1.0
+description: Comprehensive GenAI agent architecture advisor and tutorial hub covering LangGraph workflows, RAG patterns, and human-in-the-loop systems.
+license: Custom-Non-Commercial
+author: Nir Diamant, Chithra582 & OpenGAP Contributors
+
+metadata:
+  domain: Developer Tools / Generative AI Agent Architectures & Patterns
+  category: Developer Tools
+
+skills:
+  - rag-agent-architect
+  - langgraph-workflow-builder
+  - human-in-the-loop-gatekeeper
+  - swarm-handoff-coordinator
+  - trace-eval-benchmark-suite
+
+tools:
+  - tutorial-catalog-search
+  - stategraph-schema-validator
+  - approval-checkpoint-inspector
+  - swarm-handoff-visualizer
+  - rag-chunking-evaluator

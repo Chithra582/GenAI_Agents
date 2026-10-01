@@ -1,0 +1,19 @@
+name: swarm-handoff-visualizer
+description: Generates flow diagrams of agent transfer routines and context handoff
+  events.
+input_schema:
+  type: object
+  properties:
+    agent_names:
+      type: array
+      description: List of agents participating in the swarm.
+      items:
+        type: string
+    handoff_edges:
+      type: array
+      description: List of directed handoff transitions between agents.
+      items:
+        type: string
+  required:
+  - agent_names
+  - handoff_edges

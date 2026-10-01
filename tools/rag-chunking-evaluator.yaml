@@ -1,0 +1,17 @@
+name: rag-chunking-evaluator
+description: Measures chunk retrieval precision and context relevance across sample
+  queries.
+input_schema:
+  type: object
+  properties:
+    query:
+      type: string
+      description: User evaluation question.
+    retrieved_chunks:
+      type: array
+      description: List of retrieved text chunks to evaluate.
+      items:
+        type: string
+  required:
+  - query
+  - retrieved_chunks
